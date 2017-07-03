@@ -133,6 +133,15 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archivo"),
+        ("/stories/cursos/", "Listado de cursos"),
+        (
+            (
+                ("/stories/cad-basico/", "CAD Básico"),
+                ("/stories/matlab-basico/", "MATLAB Básico"),
+            ),
+            'Cursos'
+        ),        
+        ("/stories/about/", "Info"),
         ("/categories/", "Etiquetas"),
         ("/rss.xml", "Canal RSS"),
     ),
