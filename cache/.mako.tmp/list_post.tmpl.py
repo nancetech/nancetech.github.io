@@ -5,10 +5,10 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1499119838.611
+_modified_time = 1499119838.561
 _enable_loop = True
-_template_filename = u'c:/users/adminis/documents/blog/nikolab/lib/site-packages/nikola/data/themes/base/templates/list.tmpl'
-_template_uri = 'list.tmpl'
+_template_filename = u'c:/users/adminis/documents/blog/nikolab/lib/site-packages/nikola/data/themes/base/templates/list_post.tmpl'
+_template_uri = 'list_post.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content']
 
@@ -30,7 +30,8 @@ def render_body(context,**pageargs):
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         def content():
             return render_content(context._locals(__M_locals))
-        items = context.get('items', UNDEFINED)
+        date_format = context.get('date_format', UNDEFINED)
+        posts = context.get('posts', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
         title = context.get('title', UNDEFINED)
         __M_writer = context.writer()
@@ -50,29 +51,32 @@ def render_content(context,**pageargs):
     try:
         def content():
             return render_content(context)
-        items = context.get('items', UNDEFINED)
+        date_format = context.get('date_format', UNDEFINED)
+        posts = context.get('posts', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
         title = context.get('title', UNDEFINED)
         __M_writer = context.writer()
         __M_writer(u'\n<article class="listpage">\n    <header>\n        <h1>')
         __M_writer(filters.html_escape(unicode(title)))
         __M_writer(u'</h1>\n    </header>\n')
-        if items:
+        if posts:
             __M_writer(u'    <ul class="postlist">\n')
-            for text, link, count in items:
-                __M_writer(u'        <li><a href="')
-                __M_writer(unicode(link))
+            for post in posts:
+                __M_writer(u'        <li><time class="listdate" datetime="')
+                __M_writer(unicode(post.formatted_date('webiso')))
+                __M_writer(u'" title="')
+                __M_writer(filters.html_escape(unicode(post.formatted_date(date_format))))
                 __M_writer(u'">')
-                __M_writer(filters.html_escape(unicode(text)))
-                __M_writer(u'</a>\n')
-                if count:
-                    __M_writer(u'            (')
-                    __M_writer(unicode(count))
-                    __M_writer(u')\n')
+                __M_writer(filters.html_escape(unicode(post.formatted_date(date_format))))
+                __M_writer(u'</time> <a href="')
+                __M_writer(unicode(post.permalink()))
+                __M_writer(u'" class="listtitle">')
+                __M_writer(filters.html_escape(unicode(post.title())))
+                __M_writer(u'</a></li>\n')
             __M_writer(u'    </ul>\n')
         else:
             __M_writer(u'    <p>')
-            __M_writer(unicode(messages("Nothing found.")))
+            __M_writer(unicode(messages("No posts found.")))
             __M_writer(u'</p>\n')
         __M_writer(u'</article>\n')
         return ''
@@ -82,6 +86,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"27": 0, "37": 2, "42": 22, "48": 4, "57": 4, "58": 7, "59": 7, "60": 9, "61": 10, "62": 11, "63": 12, "64": 12, "65": 12, "66": 12, "67": 12, "68": 13, "69": 14, "70": 14, "71": 14, "72": 17, "73": 18, "74": 19, "75": 19, "76": 19, "77": 21, "83": 77}, "uri": "list.tmpl", "filename": "c:/users/adminis/documents/blog/nikolab/lib/site-packages/nikola/data/themes/base/templates/list.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"27": 0, "38": 2, "43": 19, "49": 4, "59": 4, "60": 7, "61": 7, "62": 9, "63": 10, "64": 11, "65": 12, "66": 12, "67": 12, "68": 12, "69": 12, "70": 12, "71": 12, "72": 12, "73": 12, "74": 12, "75": 12, "76": 14, "77": 15, "78": 16, "79": 16, "80": 16, "81": 18, "87": 81}, "uri": "list_post.tmpl", "filename": "c:/users/adminis/documents/blog/nikolab/lib/site-packages/nikola/data/themes/base/templates/list_post.tmpl"}
 __M_END_METADATA
 """
