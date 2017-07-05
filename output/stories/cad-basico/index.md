@@ -10,6 +10,7 @@
 -->
 
 **Duración:** X horas
+  
 **Costo:** $XXXX.00
 
 
