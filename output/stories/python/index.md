@@ -15,4 +15,6 @@
 
 **Costo:** $XXXX.XX
 
+![Python](/img/python.jpg)
+
 ### Contenido
