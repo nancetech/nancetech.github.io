@@ -9,7 +9,8 @@
 .. type: text
 -->
 
-**Duración:** 18 horas
+**Duración:** X horas
+  
 **Costo:** $XXXX.00
 
 
