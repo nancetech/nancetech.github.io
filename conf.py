@@ -140,7 +140,7 @@ NAVIGATION_LINKS = {
                 ("/stories/matlab-basico/", "MATLAB Básico"),
                 ("/stories/python/", "Python"),
                 ("/stories/labview/", "LabVIEW"),
-                ("/stories/adams/", "MSC Adams"),
+                ("/stories/msc-adams/", "MSC Adams"),
             ),
             'Cursos'
         ),        
