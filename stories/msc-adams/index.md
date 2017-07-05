@@ -15,6 +15,8 @@
 
 **Costo:** $XXXX.XX
 
+<font color="red" size="3"> ¡Proximamente! </font>
+
 ![MSC Adams](/img/msc-adams.jpg)
 
 ### Contenido
