@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://nancetech.github.io/</loc>
-  <lastmod>2017-07-03T22:36:00Z</lastmod>
+  <lastmod>2017-07-05T22:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://nancetech.github.io/2017/</loc>
@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>https://nancetech.github.io/archive.html</loc>
-  <lastmod>2017-07-03T22:36:00Z</lastmod>
+  <lastmod>2017-07-05T22:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://nancetech.github.io/categories/</loc>
@@ -42,7 +42,19 @@
   <lastmod>2017-07-03T22:36:00Z</lastmod>
  </url>
  <url>
+  <loc>https://nancetech.github.io/stories/labview/</loc>
+  <lastmod>2017-07-05T22:17:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://nancetech.github.io/stories/matlab-basico/</loc>
   <lastmod>2017-07-03T22:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nancetech.github.io/stories/msc-adams/</loc>
+  <lastmod>2017-07-05T22:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nancetech.github.io/stories/python/</loc>
+  <lastmod>2017-07-05T22:17:00Z</lastmod>
  </url>
 </urlset>
