@@ -9,4 +9,7 @@
 .. type: text
 -->
 
-Escriba su página aquí.
+**Duración:** X horas
+**Costo:** $XXXX.00
+
+
