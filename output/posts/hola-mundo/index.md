@@ -9,6 +9,4 @@
 .. type: text
 -->
 
-Only for development purpose.
-
-**Working!!!**
+![](/img/building.jpg)
