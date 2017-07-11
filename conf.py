@@ -152,7 +152,7 @@ NAVIGATION_LINKS = {
 
 # Name of the theme to use.
 # THEME = "bootstrap3"
-THEME = "hack"
+THEME = "planetoid"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
