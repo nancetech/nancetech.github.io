@@ -5,9 +5,9 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1499746056.888
+_modified_time = 1499746195.313
 _enable_loop = True
-_template_filename = u'themes/bootstrap/templates/listing.tmpl'
+_template_filename = u'c:/users/adminis/documents/blog/nikolab/lib/site-packages/nikola/data/themes/bootstrap3/templates/listing.tmpl'
 _template_uri = u'listing.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content', u'sourcelink']
@@ -35,17 +35,18 @@ def render_body(context,**pageargs):
         folders = _import_ns.get('folders', context.get('folders', UNDEFINED))
         files = _import_ns.get('files', context.get('files', UNDEFINED))
         code = _import_ns.get('code', context.get('code', UNDEFINED))
-        def sourcelink():
-            return render_sourcelink(context._locals(__M_locals))
+        title = _import_ns.get('title', context.get('title', UNDEFINED))
+        source_link = _import_ns.get('source_link', context.get('source_link', UNDEFINED))
         messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
         def content():
             return render_content(context._locals(__M_locals))
         ui = _mako_get_namespace(context, 'ui')
         crumbs = _import_ns.get('crumbs', context.get('crumbs', UNDEFINED))
-        source_link = _import_ns.get('source_link', context.get('source_link', UNDEFINED))
+        def sourcelink():
+            return render_sourcelink(context._locals(__M_locals))
         __M_writer = context.writer()
         __M_writer(u'\n')
-        __M_writer(u'\n\n')
+        __M_writer(u'\n')
         if 'parent' not in context._data or not hasattr(context._data['parent'], 'content'):
             context['self'].content(**pageargs)
         
@@ -69,6 +70,9 @@ def render_content(context,**pageargs):
         folders = _import_ns.get('folders', context.get('folders', UNDEFINED))
         files = _import_ns.get('files', context.get('files', UNDEFINED))
         code = _import_ns.get('code', context.get('code', UNDEFINED))
+        title = _import_ns.get('title', context.get('title', UNDEFINED))
+        source_link = _import_ns.get('source_link', context.get('source_link', UNDEFINED))
+        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
         def content():
             return render_content(context)
         ui = _mako_get_namespace(context, 'ui')
@@ -78,22 +82,31 @@ def render_content(context,**pageargs):
         __M_writer(unicode(ui.bar(crumbs)))
         __M_writer(u'\n')
         if folders or files:
-            __M_writer(u'<ul class="list-unstyled">\n')
+            __M_writer(u'<ul>\n')
             for name in folders:
                 __M_writer(u'    <li><a href="')
-                __M_writer(unicode(name))
-                __M_writer(u'"><i class="icon-folder-open"></i> ')
-                __M_writer(unicode(name))
+                __M_writer(filters.url_escape(unicode(name)))
+                __M_writer(u'"><i class="glyphicon glyphicon-folder-open"></i> ')
+                __M_writer(filters.html_escape(unicode(name)))
                 __M_writer(u'</a>\n')
             for name in files:
                 __M_writer(u'    <li><a href="')
-                __M_writer(unicode(name))
-                __M_writer(u'.html"><i class="icon-file"></i> ')
-                __M_writer(unicode(name))
+                __M_writer(filters.url_escape(unicode(name)))
+                __M_writer(u'.html"><i class="glyphicon glyphicon-file"></i> ')
+                __M_writer(filters.html_escape(unicode(name)))
                 __M_writer(u'</a>\n')
             __M_writer(u'</ul>\n')
         if code:
-            __M_writer(u'    ')
+            __M_writer(u'<h1>')
+            __M_writer(unicode(title))
+            __M_writer(u'\n')
+            if source_link:
+                __M_writer(u'        <small><a href="')
+                __M_writer(unicode(source_link))
+                __M_writer(u'">(')
+                __M_writer(unicode(messages("Source")))
+                __M_writer(u')</a></small>\n')
+            __M_writer(u'    </h1>\n    ')
             __M_writer(unicode(code))
             __M_writer(u'\n')
         return ''
@@ -125,6 +138,6 @@ def render_sourcelink(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"23": 3, "29": 0, "47": 2, "48": 3, "53": 20, "58": 28, "64": 5, "77": 5, "78": 6, "79": 6, "80": 7, "81": 8, "82": 9, "83": 10, "84": 10, "85": 10, "86": 10, "87": 10, "88": 12, "89": 13, "90": 13, "91": 13, "92": 13, "93": 13, "94": 15, "95": 17, "96": 18, "97": 18, "98": 18, "104": 22, "114": 22, "115": 23, "116": 24, "117": 25, "118": 25, "119": 25, "120": 25, "126": 120}, "uri": "listing.tmpl", "filename": "themes/bootstrap/templates/listing.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"128": 27, "129": 28, "130": 29, "131": 29, "132": 29, "133": 29, "139": 133, "23": 3, "29": 0, "48": 2, "49": 3, "54": 24, "59": 32, "65": 4, "81": 4, "82": 5, "83": 5, "84": 6, "85": 7, "86": 8, "87": 9, "88": 9, "89": 9, "90": 9, "91": 9, "92": 11, "93": 12, "94": 12, "95": 12, "96": 12, "97": 12, "98": 14, "99": 16, "100": 17, "101": 17, "102": 17, "103": 18, "104": 19, "105": 19, "106": 19, "107": 19, "108": 19, "109": 21, "110": 22, "111": 22, "117": 26, "127": 26}, "uri": "listing.tmpl", "filename": "c:/users/adminis/documents/blog/nikolab/lib/site-packages/nikola/data/themes/bootstrap3/templates/listing.tmpl"}
 __M_END_METADATA
 """

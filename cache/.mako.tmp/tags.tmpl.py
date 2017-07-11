@@ -5,9 +5,9 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1499746056.001
+_modified_time = 1499746194.106
 _enable_loop = True
-_template_filename = u'themes/bootstrap/templates/tags.tmpl'
+_template_filename = u'c:/users/adminis/documents/blog/nikolab/lib/site-packages/nikola/data/themes/bootstrap3/templates/tags.tmpl'
 _template_uri = u'tags.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content']
@@ -65,7 +65,7 @@ def render_content(context,**pageargs):
         range = context.get('range', UNDEFINED)
         __M_writer = context.writer()
         __M_writer(u'\n<h1>')
-        __M_writer(unicode(title))
+        __M_writer(filters.html_escape(unicode(title)))
         __M_writer(u'</h1>\n')
         if cat_items:
             if items:
@@ -74,11 +74,11 @@ def render_content(context,**pageargs):
                 __M_writer(u'</h2>\n')
             for text, full_name, path, link, indent_levels, indent_change_before, indent_change_after in cat_hierarchy:
                 for i in range(indent_change_before):
-                    __M_writer(u'            <ul class="unstyled">\n')
+                    __M_writer(u'            <ul class="list-inline">\n')
                 __M_writer(u'        <li><a class="reference badge" href="')
                 __M_writer(unicode(link))
                 __M_writer(u'">')
-                __M_writer(unicode(text))
+                __M_writer(filters.html_escape(unicode(text)))
                 __M_writer(u'</a>\n')
                 if indent_change_after <= 0:
                     __M_writer(u'            </li>\n')
@@ -97,7 +97,7 @@ def render_content(context,**pageargs):
                     __M_writer(u'            <li><a class="reference badge" href="')
                     __M_writer(unicode(link))
                     __M_writer(u'">')
-                    __M_writer(unicode(text))
+                    __M_writer(filters.html_escape(unicode(text)))
                     __M_writer(u'</a></li>\n')
             __M_writer(u'    </ul>\n')
         return ''
@@ -107,6 +107,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"27": 0, "42": 2, "47": 38, "53": 4, "67": 4, "68": 5, "69": 5, "70": 6, "71": 7, "72": 8, "73": 8, "74": 8, "75": 10, "76": 11, "77": 12, "78": 14, "79": 14, "80": 14, "81": 14, "82": 14, "83": 15, "84": 16, "85": 18, "86": 19, "87": 20, "88": 21, "89": 25, "90": 26, "91": 26, "92": 26, "93": 29, "94": 30, "95": 31, "96": 32, "97": 33, "98": 33, "99": 33, "100": 33, "101": 33, "102": 36, "108": 102}, "uri": "tags.tmpl", "filename": "themes/bootstrap/templates/tags.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"27": 0, "42": 2, "47": 38, "53": 4, "67": 4, "68": 5, "69": 5, "70": 6, "71": 7, "72": 8, "73": 8, "74": 8, "75": 10, "76": 11, "77": 12, "78": 14, "79": 14, "80": 14, "81": 14, "82": 14, "83": 15, "84": 16, "85": 18, "86": 19, "87": 20, "88": 21, "89": 25, "90": 26, "91": 26, "92": 26, "93": 29, "94": 30, "95": 31, "96": 32, "97": 33, "98": 33, "99": 33, "100": 33, "101": 33, "102": 36, "108": 102}, "uri": "tags.tmpl", "filename": "c:/users/adminis/documents/blog/nikolab/lib/site-packages/nikola/data/themes/bootstrap3/templates/tags.tmpl"}
 __M_END_METADATA
 """

@@ -5,9 +5,9 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1499746056.047
+_modified_time = 1499746194.156
 _enable_loop = True
-_template_filename = u'themes/bootstrap/templates/base.tmpl'
+_template_filename = u'c:/users/adminis/documents/blog/nikolab/lib/site-packages/nikola/data/themes/bootstrap3/templates/base.tmpl'
 _template_uri = u'base.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content', u'extra_head', u'sourcelink', u'extra_js', u'belowtitle']
@@ -80,56 +80,56 @@ def render_body(context,**pageargs):
         __M_writer(unicode(template_hooks['extra_head']()))
         __M_writer(u'\n</head>\n<body>\n<a href="#content" class="sr-only sr-only-focusable">')
         __M_writer(unicode(messages("Skip to main content")))
-        __M_writer(u'</a>\n\n<!-- Menubar -->\n\n<div class="navbar navbar-static-top" id="navbar">\n    <div class="navbar-inner">\n        <div class="container">\n\n        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->\n        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n        </a>\n\n            <a class="brand" href="')
+        __M_writer(u'</a>\n\n<!-- Menubar -->\n\n<nav class="navbar navbar-inverse navbar-static-top">\n    <div class="container"><!-- This keeps the margins nice -->\n        <div class="navbar-header">\n            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">\n            <span class="sr-only">Toggle navigation</span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n            </button>\n            <a class="navbar-brand" href="')
         __M_writer(unicode(abs_link(_link("root", None, lang))))
         __M_writer(u'">\n')
         if logo_url:
             __M_writer(u'                <img src="')
             __M_writer(unicode(logo_url))
             __M_writer(u'" alt="')
-            __M_writer(unicode(blog_title))
+            __M_writer(filters.html_escape(unicode(blog_title)))
             __M_writer(u'" id="logo">\n')
         __M_writer(u'\n')
         if show_blog_title:
             __M_writer(u'                <span id="blog-title">')
-            __M_writer(unicode(blog_title))
+            __M_writer(filters.html_escape(unicode(blog_title)))
             __M_writer(u'</span>\n')
-        __M_writer(u'            </a>\n            <!-- Everything you want hidden at 940px or less, place within here -->\n            <div class="nav-collapse collapse">\n                <ul class="nav">\n                    ')
+        __M_writer(u'            </a>\n        </div><!-- /.navbar-header -->\n        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">\n            <ul class="nav navbar-nav">\n                ')
         __M_writer(unicode(base.html_navigation_links()))
-        __M_writer(u'\n                    ')
+        __M_writer(u'\n                ')
         __M_writer(unicode(template_hooks['menu']()))
-        __M_writer(u'\n                </ul>\n')
+        __M_writer(u'\n            </ul>\n')
         if search_form:
-            __M_writer(u'                    ')
+            __M_writer(u'                ')
             __M_writer(unicode(search_form))
             __M_writer(u'\n')
-        __M_writer(u'                <ul class="nav pull-right">\n                ')
+        __M_writer(u'\n            <ul class="nav navbar-nav navbar-right">\n                ')
         if 'parent' not in context._data or not hasattr(context._data['parent'], 'belowtitle'):
             context['self'].belowtitle(**pageargs)
         
 
         __M_writer(u'\n')
         if show_sourcelink:
-            __M_writer(u'                    <li>')
+            __M_writer(u'                    ')
             if 'parent' not in context._data or not hasattr(context._data['parent'], 'sourcelink'):
                 context['self'].sourcelink(**pageargs)
             
 
-            __M_writer(u'</li>\n')
+            __M_writer(u'\n')
         __M_writer(u'                ')
         __M_writer(unicode(template_hooks['menu_alt']()))
-        __M_writer(u'\n                </ul>\n            </div>\n        </div>\n    </div>\n</div>\n<!-- End of Menubar -->\n<div class="container-fluid" id="content" role="main">\n    <!--Body content-->\n    <div class="row-fluid">\n    <div class="span2"></div>\n    <div class="span8">\n    ')
+        __M_writer(u'\n            </ul>\n        </div><!-- /.navbar-collapse -->\n    </div><!-- /.container -->\n</nav>\n\n<!-- End of Menubar -->\n\n<div class="container" id="content" role="main">\n    <div class="body-content">\n        <!--Body content-->\n        <div class="row">\n            ')
         __M_writer(unicode(template_hooks['page_header']()))
-        __M_writer(u'\n    ')
+        __M_writer(u'\n            ')
         if 'parent' not in context._data or not hasattr(context._data['parent'], 'content'):
             context['self'].content(**pageargs)
         
 
-        __M_writer(u'\n    </div>\n    </div>\n    <!--End of body content-->\n</div>\n<div class="footerbox">\n    ')
+        __M_writer(u'\n        </div>\n        <!--End of body content-->\n\n        <footer id="footer">\n            ')
         __M_writer(unicode(content_footer))
-        __M_writer(u'\n    ')
+        __M_writer(u'\n            ')
         __M_writer(unicode(template_hooks['page_footer']()))
-        __M_writer(u'\n</div>\n')
+        __M_writer(u'\n        </footer>\n    </div>\n</div>\n\n')
         __M_writer(unicode(base.late_load_js()))
         __M_writer(u'\n    <script>$(\'a.image-reference:not(.islink) img:not(.islink)\').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>\n    <!-- fancy dates -->\n    <script>\n    moment.locale("')
         __M_writer(unicode(momentjs_locales[lang]))
@@ -242,6 +242,6 @@ def render_belowtitle(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"128": 67, "129": 73, "130": 73, "131": 74, "132": 74, "133": 76, "134": 76, "135": 80, "136": 80, "137": 81, "138": 81, "139": 81, "140": 81, "233": 47, "145": 84, "146": 85, "147": 86, "148": 86, "149": 86, "150": 87, "23": 3, "152": 88, "153": 88, "26": 2, "155": 90, "156": 91, "29": 0, "163": 67, "220": 46, "154": 90, "157": 91, "177": 6, "186": 6, "151": 88, "232": 46, "192": 52, "69": 2, "70": 3, "71": 4, "72": 4, "73": 5, "74": 5, "206": 84, "79": 8, "80": 9, "81": 9, "82": 12, "83": 12, "84": 27, "85": 27, "86": 28, "87": 29, "88": 29, "89": 29, "90": 29, "91": 29, "92": 31, "93": 32, "94": 33, "95": 33, "96": 33, "97": 35, "98": 39, "99": 39, "100": 40, "101": 40, "102": 42, "103": 43, "104": 43, "105": 43, "106": 45, "235": 48, "236": 48, "237": 50, "111": 50, "112": 51, "113": 52, "243": 237, "118": 52, "119": 54, "120": 54, "121": 54, "122": 66, "123": 66, "234": 48}, "uri": "base.tmpl", "filename": "themes/bootstrap/templates/base.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"128": 66, "129": 71, "130": 71, "131": 72, "132": 72, "133": 77, "134": 77, "135": 81, "136": 81, "137": 82, "138": 82, "139": 82, "140": 82, "233": 46, "145": 85, "146": 86, "147": 87, "148": 87, "149": 87, "150": 88, "23": 3, "152": 89, "153": 89, "26": 2, "155": 91, "156": 92, "29": 0, "163": 66, "220": 45, "154": 91, "157": 92, "177": 6, "186": 6, "151": 89, "232": 45, "192": 51, "69": 2, "70": 3, "71": 4, "72": 4, "73": 5, "74": 5, "206": 85, "79": 8, "80": 9, "81": 9, "82": 12, "83": 12, "84": 25, "85": 25, "86": 26, "87": 27, "88": 27, "89": 27, "90": 27, "91": 27, "92": 29, "93": 30, "94": 31, "95": 31, "96": 31, "97": 33, "98": 37, "99": 37, "100": 38, "101": 38, "102": 40, "103": 41, "104": 41, "105": 41, "106": 43, "235": 47, "236": 47, "237": 49, "111": 49, "112": 50, "113": 51, "243": 237, "118": 51, "119": 53, "120": 53, "121": 53, "122": 65, "123": 65, "234": 47}, "uri": "base.tmpl", "filename": "c:/users/adminis/documents/blog/nikolab/lib/site-packages/nikola/data/themes/bootstrap3/templates/base.tmpl"}
 __M_END_METADATA
 """

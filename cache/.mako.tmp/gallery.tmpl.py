@@ -5,9 +5,9 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1499746056.708
+_modified_time = 1499746195.004
 _enable_loop = True
-_template_filename = u'themes/bootstrap/templates/gallery.tmpl'
+_template_filename = u'c:/users/adminis/documents/blog/nikolab/lib/site-packages/nikola/data/themes/bootstrap3/templates/gallery.tmpl'
 _template_uri = u'gallery.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content', u'sourcelink', u'extra_js', u'extra_head']
@@ -119,8 +119,8 @@ def render_content(context,**pageargs):
             for folder, ftitle in folders:
                 __M_writer(u'        <li><a href="')
                 __M_writer(unicode(folder))
-                __M_writer(u'"><i class="icon-folder-open"></i>&nbsp;')
-                __M_writer(unicode(ftitle))
+                __M_writer(u'"><i class="glyphicon glyphicon-folder-open"></i>&nbsp;')
+                __M_writer(filters.html_escape(unicode(ftitle)))
                 __M_writer(u'</a></li>\n')
             __M_writer(u'    </ul>\n')
         __M_writer(u'\n<div id="gallery_container"></div>\n')
@@ -130,11 +130,11 @@ def render_content(context,**pageargs):
                 __M_writer(u'        <li><a href="')
                 __M_writer(unicode(image['url']))
                 __M_writer(u'" class="thumbnail image-reference" title="')
-                __M_writer(unicode(image['title']))
+                __M_writer(filters.html_escape(unicode(image['title'])))
                 __M_writer(u'">\n            <img src="')
                 __M_writer(unicode(image['url_thumb']))
                 __M_writer(u'" alt="')
-                __M_writer(unicode(image['title']))
+                __M_writer(filters.html_escape(unicode(image['title'])))
                 __M_writer(u'" /></a>\n')
             __M_writer(u'</ul>\n</noscript>\n')
         if site_has_comments and enable_comments:
@@ -172,7 +172,7 @@ def render_extra_js(context,**pageargs):
         __M_writer(unicode(photo_array_json))
         __M_writer(u';\n$("#gallery_container").flowr({\n        data : jsonContent,\n        height : ')
         __M_writer(unicode(thumbnail_size))
-        __M_writer(u'*.6,\n        padding: 5,\n        rows: -1,\n        render : function(params) {\n            // Just return a div, string or a dom object, anything works fine\n            img = $("<img />").attr({\n                \'src\': params.itemData.url_thumb,\n                \'width\' : params.width,\n                \'height\' : params.height\n            }).css(\'max-width\', \'100%\');\n            link = $( "<a></a>").attr({\n                \'href\': params.itemData.url,\n                \'class\': \'image-reference\'\n            });\n            div = $("<div />").addClass(\'image-block\').attr({\n                \'title\': params.itemData.title,\n                \'data-toggle\': "tooltip",\n            });\n            link.append(img);\n            div.append(link);\n            div.hover(div.tooltip());\n            return div;\n        },\n        itemWidth : function(data) { return data.size.w; },\n        itemHeight : function(data) { return data.size.h; },\n        complete : function(params) {\n            if( jsonContent.length > params.renderedItems ) {\n                nextRenderList = jsonContent.slice( params.renderedItems );\n            }\n        }\n    });\n$("a.image-reference").colorbox({rel:"gal", maxWidth:"100%",maxHeight:"100%",scalePhotos:true});\n</script>\n')
+        __M_writer(u'*.6,\n        padding: 5,\n        rows: -1,\n        render : function(params) {\n            // Just return a div, string or a dom object, anything works fine\n            img = $("<img />").attr({\n                \'src\': params.itemData.url_thumb,\n                \'width\' : params.width,\n                \'height\' : params.height\n            }).css(\'max-width\', \'100%\');\n            link = $( "<a></a>").attr({\n                \'href\': params.itemData.url,\n                \'class\': \'image-reference\'\n            });\n            div = $("<div />").addClass(\'image-block\').attr({\n                \'title\': params.itemData.title,\n                \'data-toggle\': "tooltip",\n            });\n            link.append(img);\n            div.append(link);\n            div.hover(div.tooltip());\n            return div;\n        },\n        itemWidth : function(data) { return data.size.w; },\n        itemHeight : function(data) { return data.size.h; },\n        complete : function(params) {\n            if( jsonContent.length > params.renderedItems ) {\n                nextRenderList = jsonContent.slice( params.renderedItems );\n            }\n        }\n    });\n$("a.image-reference").colorbox({rel:"gal", maxWidth:"100%",maxHeight:"100%",scalePhotos:true});\n$(\'a.image-reference[href="\'+window.location.hash.substring(1,1000)+\'"]\').click();\n</script>\n')
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -197,6 +197,6 @@ def render_extra_head(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"128": 27, "129": 29, "130": 30, "131": 30, "132": 30, "133": 30, "134": 30, "135": 31, "136": 31, "137": 31, "138": 31, "139": 33, "140": 36, "141": 37, "142": 37, "148": 5, "23": 4, "26": 3, "32": 0, "161": 55, "171": 55, "172": 58, "173": 58, "174": 61, "175": 61, "181": 41, "60": 2, "61": 3, "62": 4, "191": 42, "192": 42, "67": 5, "198": 192, "72": 39, "77": 52, "190": 41, "82": 94, "88": 7, "106": 7, "107": 8, "108": 8, "109": 9, "110": 10, "111": 10, "112": 10, "113": 12, "114": 13, "115": 14, "116": 14, "117": 17, "118": 18, "119": 19, "120": 20, "121": 20, "122": 20, "123": 20, "124": 20, "125": 22, "126": 24, "127": 26}, "uri": "gallery.tmpl", "filename": "themes/bootstrap/templates/gallery.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"128": 27, "129": 29, "130": 30, "131": 30, "132": 30, "133": 30, "134": 30, "135": 31, "136": 31, "137": 31, "138": 31, "139": 33, "140": 36, "141": 37, "142": 37, "148": 5, "23": 4, "26": 3, "32": 0, "161": 55, "171": 55, "172": 58, "173": 58, "174": 61, "175": 61, "181": 41, "60": 2, "61": 3, "62": 4, "191": 42, "192": 42, "67": 5, "198": 192, "72": 39, "77": 52, "190": 41, "82": 95, "88": 7, "106": 7, "107": 8, "108": 8, "109": 9, "110": 10, "111": 10, "112": 10, "113": 12, "114": 13, "115": 14, "116": 14, "117": 17, "118": 18, "119": 19, "120": 20, "121": 20, "122": 20, "123": 20, "124": 20, "125": 22, "126": 24, "127": 26}, "uri": "gallery.tmpl", "filename": "c:/users/adminis/documents/blog/nikolab/lib/site-packages/nikola/data/themes/bootstrap3/templates/gallery.tmpl"}
 __M_END_METADATA
 """
