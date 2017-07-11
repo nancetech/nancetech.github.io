@@ -17,15 +17,15 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "NanceTech"  # (translatable)
-BLOG_TITLE = "NanceTech"  # (translatable)
+BLOG_AUTHOR = "Nance Tech"  # (translatable)
+BLOG_TITLE = "Nance Tech"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://nancetech.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://nancetech.github.io/"
-BLOG_EMAIL = "delossantosmfq@gmail.com"
+BLOG_EMAIL = "nancetech.eng@gmail.com"
 BLOG_DESCRIPTION = "Website for NanceTech"  # (translatable)
 
 # Nikola is multilingual!
@@ -151,7 +151,8 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootstrap3"
+# THEME = "bootstrap3"
+THEME = "hack"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
