@@ -11,6 +11,8 @@
 
 ¡Bienvenidos a Nance Tech!
 
-![](https://drive.google.com/open?id=1VI8qgmcda8n8YlfNSKHxefhrQCEGz_CB)
+### PROXIMAMENTE
+
+![](img/curso-sw-01.jpg)
 
 <!-- ![](/img/building.jpg) -->
