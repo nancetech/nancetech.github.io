@@ -9,6 +9,8 @@
 .. type: text
 -->
 
-Bienvenidos a Nance Tech
+¡Bienvenidos a Nance Tech!
 
-#![](/img/building.jpg)
+![](https://drive.google.com/open?id=1VI8qgmcda8n8YlfNSKHxefhrQCEGz_CB)
+
+<!-- ![](/img/building.jpg) -->
