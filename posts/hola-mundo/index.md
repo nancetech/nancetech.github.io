@@ -13,6 +13,6 @@
 
 ### PROXIMAMENTE
 
-![](img/curso-sw-01.jpg)
+![](/img/curso-sw-01.jpg)
 
 <!-- ![](/img/building.jpg) -->
