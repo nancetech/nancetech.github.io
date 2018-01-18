@@ -9,4 +9,6 @@
 .. type: text
 -->
 
-![](/img/building.jpg)
+Bienvenidos a Nance Tech
+
+#![](/img/building.jpg)

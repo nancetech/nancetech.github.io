@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-
-from __future__ import unicode_literals
+# from __future__ import unicode_literals # Uncomment for Python 2.7.X
 import time
 
 # !! This is the configuration of Nikola. !! #
