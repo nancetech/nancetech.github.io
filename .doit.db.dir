@@ -18,7 +18,7 @@
 'copy_assets:output\\assets\\css\\bootstrap-theme.css', (8704, 468)
 'copy_assets:output\\assets\\js\\bootstrap.min.js', (9216, 459)
 'robots_file', (9728, 56)
-'sitemap:output\\sitemap.xml', (10240, 2124)
+'sitemap:output\\sitemap.xml', (10240, 2123)
 'copy_files:output\\favicon.ico', (12800, 246)
 'render_posts:cache\\stories\\cursos.html', (13312, 354)
 'render_sources:output\\stories\\python\\index.md', (13824, 242)
