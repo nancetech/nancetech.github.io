@@ -11,8 +11,13 @@
 
 ¡Bienvenidos a Nance Tech!
 
-### PROXIMAMENTE
+# PROXIMAMENTE
 
-![](/img/curso-sw-01.jpg)
+## Curso de Solidworks Básico
+
+Iniciamos 24 de Febrero
+
+
+<!-- ![](/img/curso-sw-01.jpg) -->
 
 <!-- ![](/img/building.jpg) -->
