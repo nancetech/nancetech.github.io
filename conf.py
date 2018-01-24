@@ -131,7 +131,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archivo"),
+        # ("/archive.html", "Archivo"),
         (
             (
                 ("/stories/cad-basico/", "Solidworks Básico"),
@@ -142,9 +142,9 @@ NAVIGATION_LINKS = {
             ),
             'Cursos'
         ),        
-        ("/stories/about/", "Info"),
-        ("/categories/", "Etiquetas"),
-        ("/rss.xml", "Canal RSS"),
+        ("/stories/about/", "Contacto"),
+        # ("/categories/", "Etiquetas"),
+        # ("/rss.xml", "Canal RSS"),
     ),
 }
 
