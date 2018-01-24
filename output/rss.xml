@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nance Tech</title><link>https://nancetech.github.io/</link><description>Website for NanceTech</description><atom:link href="https://nancetech.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><lastBuildDate>Wed, 24 Jan 2018 04:05:54 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Nance Tech</title><link>https://nancetech.github.io/posts/hola-mundo/</link><dc:creator>Nance Tech</dc:creator><description>&lt;div&gt;&lt;p&gt;¡Bienvenidos a Nance Tech!&lt;/p&gt;
-&lt;h2&gt;PROXIMAMENTE&lt;/h2&gt;
-&lt;h3&gt;Curso de Solidworks Básico&lt;/h3&gt;
-&lt;p&gt;Iniciamos 24 de Febrero&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nance Tech</title><link>https://nancetech.github.io/</link><description>Website for NanceTech</description><atom:link href="https://nancetech.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><lastBuildDate>Wed, 24 Jan 2018 04:08:29 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Nance Tech</title><link>https://nancetech.github.io/posts/hola-mundo/</link><dc:creator>Nance Tech</dc:creator><description>&lt;div&gt;&lt;p&gt;¡Bienvenidos a Nance Tech!&lt;/p&gt;
+&lt;h3&gt;Nuestros cursos&lt;/h3&gt;
 &lt;div class="col-md-4"&gt;
   &lt;div class="card mb-4 box-shadow"&gt;
     &lt;img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;amp;bg=55595c&amp;amp;fg=eceeef&amp;amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="https://nancetech.github.io/img/slide/sld01.jpg"&gt;
     &lt;div class="card-body"&gt;
-      &lt;p class="card-text"&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
+      &lt;p class="card-text"&gt; Curso de Solidworks básico &lt;/p&gt;
       &lt;div class="d-flex justify-content-between align-items-center"&gt;
         &lt;div class="btn-group"&gt;
           &lt;button type="button" class="btn btn-sm btn-outline-secondary"&gt;View&lt;/button&gt;
