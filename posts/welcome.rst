@@ -1,7 +1,7 @@
 .. title: Nance Tech
 .. slug: welcome
 .. date: 2018-01-23 21:07:41 UTC-06:00
-.. tags: 
+.. tags: draft,
 .. category: 
 .. link: 
 .. description: 
