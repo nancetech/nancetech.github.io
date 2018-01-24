@@ -136,7 +136,7 @@ NAVIGATION_LINKS = {
             (
                 ("/stories/cad-basico/", "Solidworks Básico"),
                 ("/stories/matlab-basico/", "MATLAB Básico"),
-                ("/stories/python/", "Python"),
+                ("/stories/python/", "Python Básico"),
                 ("/stories/labview/", "LabVIEW"),
                 ("/stories/msc-adams/", "MSC Adams"),
             ),
