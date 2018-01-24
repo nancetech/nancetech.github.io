@@ -17,3 +17,12 @@ Iniciamos 24 de Febrero
 
 .. media:: https://www.youtube.com/watch?v=cp0jaOFtqX4
 
+.. slides::
+
+	/img/slide/sld01.jpg
+	/img/slide/sld02.jpg
+	/img/slide/sld03.png
+	/img/slide/sld04.png
+	/img/slide/sld05.jpg
+	/img/slide/sld06.jpg
+	/img/slide/sld07.jpg
