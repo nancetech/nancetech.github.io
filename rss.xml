@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nance Tech</title><link>https://nancetech.github.io/</link><description>Website for NanceTech</description><atom:link href="https://nancetech.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><lastBuildDate>Wed, 24 Jan 2018 03:43:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Nance Tech</title><link>https://nancetech.github.io/posts/welcome/</link><dc:creator>Nance Tech</dc:creator><description>&lt;div&gt;&lt;p&gt;¡Bienvenidos a Nance Tech!&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nance Tech</title><link>https://nancetech.github.io/</link><description>Website for NanceTech</description><atom:link href="https://nancetech.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><lastBuildDate>Wed, 24 Jan 2018 03:48:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Nance Tech</title><link>https://nancetech.github.io/posts/welcome/</link><dc:creator>Nance Tech</dc:creator><description>&lt;div&gt;&lt;p&gt;¡Bienvenidos a Nance Tech!&lt;/p&gt;
 &lt;div class="section" id="proximamente"&gt;
 &lt;h2&gt;PROXIMAMENTE&lt;/h2&gt;
 &lt;div class="section" id="curso-de-solidworks-basico"&gt;
 &lt;h3&gt;Curso de Solidworks Básico&lt;/h3&gt;
 &lt;p&gt;Iniciamos 24 de Febrero&lt;/p&gt;
-&lt;blockquote&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&amp;lt;div class="container-fluid"&amp;gt;&lt;/dt&gt;
 &lt;dd&gt;&lt;dl class="first docutils"&gt;
@@ -580,7 +579,6 @@ Definition list ends without a blank line; unexpected unindent.&lt;/div&gt;
 &lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 237)&lt;/p&gt;
 Definition list ends without a blank line; unexpected unindent.&lt;/div&gt;
 &lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;!-- .. slides:: --&gt;
 &lt;!-- /img/slide/sld01.jpg --&gt;
 &lt;!-- /img/slide/sld02.jpg --&gt;
