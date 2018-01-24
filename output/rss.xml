@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nance Tech</title><link>https://nancetech.github.io/</link><description>Website for NanceTech</description><atom:link href="https://nancetech.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><lastBuildDate>Wed, 24 Jan 2018 03:10:55 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Nance Tech</title><link>https://nancetech.github.io/posts/welcome/</link><dc:creator>Nance Tech</dc:creator><description>&lt;div&gt;&lt;p&gt;¡Bienvenidos a Nance Tech!&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nance Tech</title><link>https://nancetech.github.io/</link><description>Website for NanceTech</description><atom:link href="https://nancetech.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><lastBuildDate>Wed, 24 Jan 2018 03:32:18 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Nance Tech</title><link>https://nancetech.github.io/posts/welcome/</link><dc:creator>Nance Tech</dc:creator><description>&lt;div&gt;&lt;p&gt;¡Bienvenidos a Nance Tech!&lt;/p&gt;
 &lt;p&gt;# PROXIMAMENTE&lt;/p&gt;
 &lt;p&gt;## Curso de Solidworks Básico&lt;/p&gt;
 &lt;p&gt;Iniciamos 24 de Febrero&lt;/p&gt;
-&lt;iframe width="480" height="270" src="https://www.youtube.com/embed/cp0jaOFtqX4?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><guid>https://nancetech.github.io/posts/welcome/</guid><pubDate>Wed, 24 Jan 2018 03:07:41 GMT</pubDate></item><item><title>Nance Tech</title><link>https://nancetech.github.io/posts/hola-mundo/</link><dc:creator>Nance Tech</dc:creator><description>&lt;div&gt;&lt;p&gt;¡Bienvenidos a Nance Tech!&lt;/p&gt;
-&lt;h2&gt;PROXIMAMENTE&lt;/h2&gt;
-&lt;h3&gt;Curso de Solidworks Básico&lt;/h3&gt;
-&lt;p&gt;Iniciamos 24 de Febrero&lt;/p&gt;
-&lt;p&gt;https://www.youtube.com/watch?v=cp0jaOFtqX4&lt;/p&gt;
-&lt;!-- ![](/img/curso-sw-01.jpg) --&gt;
-
-&lt;!-- ![](/img/building.jpg) --&gt;&lt;/div&gt;</description><guid>https://nancetech.github.io/posts/hola-mundo/</guid><pubDate>Mon, 03 Jul 2017 22:09:39 GMT</pubDate></item></channel></rss>
+&lt;iframe width="480" height="270" src="https://www.youtube.com/embed/cp0jaOFtqX4?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;div id="slides_45e66899a59d4dab9bca85e2f5bbcf60" class="carousel slide"&gt;
+    &lt;ol class="carousel-indicators"&gt;
+            &lt;li data-target="#slides_45e66899a59d4dab9bca85e2f5bbcf60" data-slide-to="0" class="active"&gt;
+            &lt;/li&gt;&lt;li data-target="#slides_45e66899a59d4dab9bca85e2f5bbcf60" data-slide-to="1"&gt;
+            &lt;/li&gt;&lt;li data-target="#slides_45e66899a59d4dab9bca85e2f5bbcf60" data-slide-to="2"&gt;
+            &lt;/li&gt;&lt;li data-target="#slides_45e66899a59d4dab9bca85e2f5bbcf60" data-slide-to="3"&gt;
+            &lt;/li&gt;&lt;li data-target="#slides_45e66899a59d4dab9bca85e2f5bbcf60" data-slide-to="4"&gt;
+            &lt;/li&gt;&lt;li data-target="#slides_45e66899a59d4dab9bca85e2f5bbcf60" data-slide-to="5"&gt;
+            &lt;/li&gt;&lt;li data-target="#slides_45e66899a59d4dab9bca85e2f5bbcf60" data-slide-to="6"&gt;
+    &lt;/li&gt;&lt;/ol&gt;
+    &lt;div class="carousel-inner"&gt;
+                &lt;div class="item active"&gt;&lt;img src="https://nancetech.github.io/img/slide/sld01.jpg" alt="" style="margin: 0 auto 0 auto;"&gt;&lt;/div&gt;
+                &lt;div class="item"&gt;&lt;img src="https://nancetech.github.io/img/slide/sld02.jpg" alt="" style="margin: 0 auto 0 auto;"&gt;&lt;/div&gt;
+                &lt;div class="item"&gt;&lt;img src="https://nancetech.github.io/img/slide/sld03.png" alt="" style="margin: 0 auto 0 auto;"&gt;&lt;/div&gt;
+                &lt;div class="item"&gt;&lt;img src="https://nancetech.github.io/img/slide/sld04.png" alt="" style="margin: 0 auto 0 auto;"&gt;&lt;/div&gt;
+                &lt;div class="item"&gt;&lt;img src="https://nancetech.github.io/img/slide/sld05.jpg" alt="" style="margin: 0 auto 0 auto;"&gt;&lt;/div&gt;
+                &lt;div class="item"&gt;&lt;img src="https://nancetech.github.io/img/slide/sld06.jpg" alt="" style="margin: 0 auto 0 auto;"&gt;&lt;/div&gt;
+                &lt;div class="item"&gt;&lt;img src="https://nancetech.github.io/img/slide/sld07.jpg" alt="" style="margin: 0 auto 0 auto;"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;a class="left carousel-control" href="https://nancetech.github.io/posts/welcome/#slides_45e66899a59d4dab9bca85e2f5bbcf60" data-slide="prev"&gt;&lt;span class="icon-prev"&gt;&lt;/span&gt;&lt;/a&gt;
+    &lt;a class="right carousel-control" href="https://nancetech.github.io/posts/welcome/#slides_45e66899a59d4dab9bca85e2f5bbcf60" data-slide="next"&gt;&lt;span class="icon-next"&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>https://nancetech.github.io/posts/welcome/</guid><pubDate>Wed, 24 Jan 2018 03:07:41 GMT</pubDate></item></channel></rss>
