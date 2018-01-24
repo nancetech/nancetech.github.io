@@ -17,9 +17,9 @@
 
 ### Contenido
 
-* Funcionalidad básica
-* Iniciación práctica
-* Operaciones
-* Conceptos básicos de ensamblaje
+* Funcionalidad básica: descripción de la interfaz y funciones básicas. Operaciones de croquizado.
+* Iniciación práctica: generación de un ejemplo práctico involucrando operaciones de sólido.
+* Operaciones: operaciones básicas y modelado de piezas.
+* Conceptos básicos de ensamblaje: desarrollo de ensamblajes, uso de relaciones de posición.
 
 
