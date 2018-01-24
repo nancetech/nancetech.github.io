@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1516764738.6097698
+_modified_time = 1516764824.3486738
 _enable_loop = True
 _template_filename = 'c:/users/user/documents/blog/nikola/lib/site-packages/nikola/data/themes/bootstrap3/templates/slides.tmpl'
 _template_uri = 'slides.tmpl'
@@ -17,13 +17,13 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
+        enumerate = context.get('enumerate', UNDEFINED)
+        slides_content = context.get('slides_content', UNDEFINED)
+        range = context.get('range', UNDEFINED)
+        carousel_id = context.get('carousel_id', UNDEFINED)
         len = context.get('len', UNDEFINED)
         def content():
             return render_content(context._locals(__M_locals))
-        slides_content = context.get('slides_content', UNDEFINED)
-        enumerate = context.get('enumerate', UNDEFINED)
-        carousel_id = context.get('carousel_id', UNDEFINED)
-        range = context.get('range', UNDEFINED)
         __M_writer = context.writer()
         if 'parent' not in context._data or not hasattr(context._data['parent'], 'content'):
             context['self'].content(**pageargs)
@@ -38,13 +38,13 @@ def render_body(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
+        enumerate = context.get('enumerate', UNDEFINED)
+        slides_content = context.get('slides_content', UNDEFINED)
+        range = context.get('range', UNDEFINED)
+        carousel_id = context.get('carousel_id', UNDEFINED)
         len = context.get('len', UNDEFINED)
         def content():
             return render_content(context)
-        slides_content = context.get('slides_content', UNDEFINED)
-        enumerate = context.get('enumerate', UNDEFINED)
-        carousel_id = context.get('carousel_id', UNDEFINED)
-        range = context.get('range', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n<div id="')
         __M_writer(str(carousel_id))
