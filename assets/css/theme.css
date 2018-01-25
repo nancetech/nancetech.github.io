@@ -231,8 +231,7 @@ article.post-micro {
     box-shadow: 30px #aaa;
     background-color: #f2f4f7;
     padding: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: auto;
 }
 
 .card-img-top{
