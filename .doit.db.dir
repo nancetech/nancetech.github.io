@@ -87,7 +87,7 @@
 'copy_assets:output\\assets\\js\\html5shiv-printshiv.min.js', (79360, 467)
 'render_posts:cache\\stories\\cad-basico.html', (79872, 365)
 'copy_assets:output\\assets\\fonts\\glyphicons-halflings-regular.ttf', (80384, 498)
-'render_pages:output\\stories\\python\\index.html', (80896, 5217)
+'render_pages:output\\stories\\python\\index.html', (80896, 5219)
 'render_posts:cache\\stories\\matlab-basico.html', (86528, 375)
 'copy_assets:output\\assets\\css\\images\\ie6\\borderTopCenter.png', (87040, 491)
 'copy_assets:output\\assets\\css\\nikola_ipython.css', (87552, 453)
