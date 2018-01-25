@@ -758,3 +758,7 @@ article.post-micro {
 ul {
     list-style-image: url('/img/nanchi-list.png');
 }
+
+body{
+    font-family: "Vollkorn";
+}

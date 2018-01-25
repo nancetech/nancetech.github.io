@@ -978,6 +978,7 @@ PRETTY_URLS = True
 # If you set USE_KATEX to True, you also need to add an extra CSS file
 # like this:
 # EXTRA_HEAD_DATA = """<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">"""
+EXTRA_HEAD_DATA = """<link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet'>"""
 # USE_KATEX = False
 
 # Do you want to customize the nbconversion of your IPython notebook?
