@@ -7512,3 +7512,7 @@ article.post-micro {
     margin-right: auto;
     padding: 5px;
 }
+
+ul {
+    list-style-image: url('/img/nanchi-list.png');
+}
