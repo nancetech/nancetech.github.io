@@ -7500,8 +7500,6 @@ article.post-micro {
 .course-box{
     border-radius: 10px;
     border-color: #00ff00;
-    border-width: 1px;
-    border-style: solid;
-    box-shadow: 10px;
-    background-color: #00dafc;
+    box-shadow: 30px #aaa;
+    background-color: #f2f4f7;
 }
