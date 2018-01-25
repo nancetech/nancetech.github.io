@@ -7492,10 +7492,13 @@ article.post-micro {
 
 .course-title{
     color: #ff00ff;
-    font-size: 14px;
+    font-size: 20px;
+    font-family: "Courier New";
 }
 
 .course-box{
     border-radius: 2px;
     border-color: #00ff00;
+    border-width: 2px;
+    background-color: #AAFFDD;
 }
