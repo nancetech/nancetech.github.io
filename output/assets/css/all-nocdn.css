@@ -7492,8 +7492,9 @@ article.post-micro {
 
 .course-title{
     color: #ff00ff;
-    font-size: 14px;
+    font-size: 18px;
     font-family: "Helvetica";
+    font-weight: bold;
 }
 
 .course-box{
