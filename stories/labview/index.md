@@ -11,8 +11,6 @@
 
 ### Información general
 
-**Duración**: XX horas
+**Próximamente**
 
-**Costo:** $XXXX.XX
-
-### Contenido
+TODO

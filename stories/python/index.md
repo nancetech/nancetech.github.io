@@ -1,5 +1,5 @@
 <!-- 
-.. title: Python
+.. title: Python Básico
 .. slug: python
 .. date: 2017-07-05 17:11:46 UTC-05:00
 .. tags: 
@@ -11,10 +11,6 @@
 
 ### Información general
 
-**Duración**: XX horas
+**Duración**: 18 horas
 
-**Costo:** $XXXX.XX
-
-![Python](/img/python.jpg)
-
-### Contenido
+**Próximamente**

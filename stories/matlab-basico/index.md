@@ -11,11 +11,8 @@
 
 ### Información general
 
-**Duración**: XX horas
+**Duración**: 18 horas
 
-**Costo:** $XXXX.XX
+**Próximamente**
 
-![MATLAB](/img/matlab.jpg)
-
-### Contenido
 
