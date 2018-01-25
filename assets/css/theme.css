@@ -219,4 +219,10 @@ article.post-micro {
 
 .course-title{
     color: #ff00ff;
+    font-size: 14px;
+}
+
+.course-box{
+    border-radius: 2px;
+    border-color: #00ff00;
 }
