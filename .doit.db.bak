@@ -127,3 +127,7 @@
 'copy_files:output\\img\\slide\\sld07.jpg', (140800, 268)
 'copy_files:output\\img\\slide\\sld05.jpg', (141312, 268)
 'copy_files:output\\img\\slide\\sld06.jpg', (141824, 268)
+'copy_files:output\\img\\matlab-course.png', (155136, 270)
+'copy_files:output\\img\\msc-adams-course.jpg', (155648, 275)
+'copy_files:output\\img\\python-course.png', (156160, 269)
+'copy_files:output\\img\\python-course-2.jpg', (156672, 273)
