@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1516856162.3327892
+_modified_time = 1516856716.713498
 _enable_loop = True
 _template_filename = 'c:/users/user/documents/blog/nikola/lib/site-packages/nikola/data/themes/base/templates/feeds_translations_helper.tmpl'
 _template_uri = 'feeds_translations_helper.tmpl'
@@ -30,14 +30,14 @@ def render_body(context,**pageargs):
 def render_head(context,classification=None):
     __M_caller = context.caller_stack._push_frame()
     try:
-        _link = context.get('_link', UNDEFINED)
-        rss_link = context.get('rss_link', UNDEFINED)
-        other_languages = context.get('other_languages', UNDEFINED)
-        len = context.get('len', UNDEFINED)
-        generate_rss = context.get('generate_rss', UNDEFINED)
-        kind = context.get('kind', UNDEFINED)
         has_other_languages = context.get('has_other_languages', UNDEFINED)
+        len = context.get('len', UNDEFINED)
+        kind = context.get('kind', UNDEFINED)
+        other_languages = context.get('other_languages', UNDEFINED)
         translations = context.get('translations', UNDEFINED)
+        rss_link = context.get('rss_link', UNDEFINED)
+        _link = context.get('_link', UNDEFINED)
+        generate_rss = context.get('generate_rss', UNDEFINED)
         generate_atom = context.get('generate_atom', UNDEFINED)
         sorted = context.get('sorted', UNDEFINED)
         __M_writer = context.writer()
@@ -124,12 +124,12 @@ def render_head(context,classification=None):
 def render_feed_link(context,classification):
     __M_caller = context.caller_stack._push_frame()
     try:
-        _link = context.get('_link', UNDEFINED)
         len = context.get('len', UNDEFINED)
-        generate_rss = context.get('generate_rss', UNDEFINED)
         kind = context.get('kind', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
         translations = context.get('translations', UNDEFINED)
+        _link = context.get('_link', UNDEFINED)
+        generate_rss = context.get('generate_rss', UNDEFINED)
         generate_atom = context.get('generate_atom', UNDEFINED)
         sorted = context.get('sorted', UNDEFINED)
         __M_writer = context.writer()
@@ -183,11 +183,11 @@ def render_feed_link(context,classification):
 def render_translation_link(context):
     __M_caller = context.caller_stack._push_frame()
     try:
-        _link = context.get('_link', UNDEFINED)
-        other_languages = context.get('other_languages', UNDEFINED)
+        has_other_languages = context.get('has_other_languages', UNDEFINED)
         kind = context.get('kind', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
-        has_other_languages = context.get('has_other_languages', UNDEFINED)
+        other_languages = context.get('other_languages', UNDEFINED)
+        _link = context.get('_link', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if has_other_languages and other_languages:

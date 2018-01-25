@@ -230,3 +230,8 @@ article.post-micro {
     box-shadow: 30px #aaa;
     background-color: #f2f4f7;
 }
+
+.card-img-top{
+    margin-left: auto;
+    margin-right: auto;
+}
