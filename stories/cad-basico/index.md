@@ -11,15 +11,17 @@
 
 ### Información general
 
-**Duración**: 18 horas (3 sábados)
+**Duración:** 18 horas.
 
-*Constancia de participación al finalizar el curso.*
+**Horario:** 8:30 a 14:30 (Sábados).
+
+*Constancia de participación al finalizar el curso*
 
 ### Contenido
 
-* Funcionalidad básica: descripción de la interfaz y funciones básicas. Operaciones de croquizado.
-* Iniciación práctica: generación de un ejemplo práctico involucrando operaciones de sólido.
-* Operaciones: operaciones básicas y modelado de piezas.
-* Conceptos básicos de ensamblaje: desarrollo de ensamblajes, uso de relaciones de posición.
+* **Funcionalidad básica:** descripción de la interfaz y funciones básicas. Operaciones de croquizado.
+* **Iniciación práctica:** generación de un ejemplo práctico involucrando operaciones de sólido.
+* **Operaciones:** operaciones básicas y modelado de piezas.
+* **Conceptos básicos de ensamblaje:** desarrollo de ensamblajes, uso de relaciones de posición.
 
 
