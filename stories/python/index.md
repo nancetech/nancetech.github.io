@@ -25,48 +25,40 @@ Python básico es un curso dirigido a estudiantes de nivel universitario e ingen
 	- Instalación y preparación del entorno de desarrollo
 	- Utilizando la consola de Python
 * Fundamentos del lenguaje
-	Definición de variables
-	Tipos de datos
-	Numéricos: enteros y flotantes
-	Booleanos
-	Listas
-	Tuplas
-	Diccionarios
-	Cadenas de texto (Strings)
-	Operadores aritméticos, relacionales y lógicos.
-	Creando y ejecutando scripts.
-	Importando y utilizando módulos/librerías.
-	Entrada interactiva de datos: la función input
-	Salida por consola: la función print
-	Funciones
-	Funciones predefinidas
-	Funciones definidas por el usuario
-	Control de flujo
-	Sentencia if-elif-else
-	Ciclo for
-	Ciclo while
-	Manejo de excepciones: try-except.
+	- Definición de variables
+	- Tipos de datos
+	- Operadores aritméticos, relacionales y lógicos.
+	- Creando y ejecutando scripts.
+	- Importando y utilizando módulos/librerías.
+	- Entrada interactiva de datos: la función input
+	- Salida por consola: la función print
+	- Funciones
+	- Control de flujo 
+		- Sentencia if-elif-else
+		- Ciclo for
+		- Ciclo while
+		- Manejo de excepciones: try-except.
 
 
 * NumPy: algebra matricial
-	¿Qué es NumPy?
-	Definiendo vectores y matrices
-	Operaciones vectoriales
-	Operaciones matriciales
-	Sistemas de ecuaciones lineales
+	- ¿Qué es NumPy?
+	- Definiendo vectores y matrices
+	- Operaciones vectoriales
+	- Operaciones matriciales
+	- Sistemas de ecuaciones lineales
 
 * Matplotlib: graficando en Python.
-	Gráficas en coordenadas rectangulares
-	Etiquetas y textos
-	Gráficas múltiples
-	Gráficas de barras
+	- Gráficas en coordenadas rectangulares
+	- Etiquetas y textos
+	- Gráficas múltiples
+	- Gráficas de barras
 
 * SymPy: algebra simbólica.
-	Variables simbólicas
-	Manipulación algebraica
-	Solución de ecuaciones e inecuaciones
-	Derivadas e integrales
-	Solución de ecuaciones diferenciales
+	- Variables simbólicas
+	- Manipulación algebraica
+	- Solución de ecuaciones e inecuaciones
+	- Derivadas e integrales
+	- Solución de ecuaciones diferenciales
 
 **Requisitos**
 
