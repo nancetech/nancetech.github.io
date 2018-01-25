@@ -7501,7 +7501,7 @@ article.post-micro {
     border-radius: 10px;
     border-color: #00ff00;
     border-width: 1px;
-    border-style: "solid";
+    border-style: solid;
     box-shadow: 10px;
-    background-color: #AAAAAA;
+    background-color: #00dafc;
 }
