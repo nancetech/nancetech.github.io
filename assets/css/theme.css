@@ -222,6 +222,7 @@ article.post-micro {
     font-size: 14px;
     font-family: "Helvetica";
     font-weight: bold;
+    text-align: center;
 }
 
 .course-box{
@@ -229,9 +230,11 @@ article.post-micro {
     border-color: #00ff00;
     box-shadow: 30px #aaa;
     background-color: #f2f4f7;
+    padding: 10px;
 }
 
 .card-img-top{
     margin-left: auto;
     margin-right: auto;
+    padding: 5px;
 }
